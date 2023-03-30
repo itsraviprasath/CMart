@@ -1,0 +1,160 @@
+.contact {
+    .contact_area {
+        padding: 100px 0;
+    }
+
+    .conatct_main_area {
+        box-shadow: 5px 5px 12px rgba(0, 0, 0, .18);
+        box-shadow: -5px -5px 12px rgba(0, 0, 0, .18);
+        box-shadow: inset 5px 5px 12px rgba(0, 0, 0, .18);
+        margin: 0rem 5rem;
+        border-bottom: 5px solid rgba(0, 0, 0, .18);
+    }
+
+    .main_title {
+        position: relative;
+        margin-bottom: 50px;
+        text-align: center !important;
+    }
+
+    .heading-title {
+        padding-top: 20px;
+    }
+
+    .title-border {
+        margin: 0 auto !important;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bg-white {
+        background: #fff;
+        background-color: #fff;
+    }
+
+    .contact_form {
+        padding: 50px;
+    }
+
+    .contact_form h3 {
+        margin: 0 0 20px;
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+
+
+    .contact_button {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: #f0151f;
+        color: #fff;
+        border: 2px solid transparent;
+        transition: all .7s ease;
+        letter-spacing: 1px;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border-radius: 3px;
+    }
+
+    .contact_button :hover {
+        color: #f0151f;
+        background-color: #fff;
+    }
+
+
+
+
+
+    .contact_details_outer {
+        background: rgba(0, 0, 0, 0.04) url('../../images/contact_bgcar.jpg') top left repeat;
+        z-index: 1;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+    }
+
+    .contact_details_outer .contact_details_area {
+        width: 100%;
+        background-color: #191fcb;
+        padding: 50px;
+        content: "";
+        z-index: -1;
+        opacity: 0.7;
+        height: 100%;
+    }
+
+    .contact_details_outer .contact_details_area h3 {
+        margin: 0 0 20px;
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    .box_icon {
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px;
+        position: relative;
+    }
+
+    .box_icon .contact_icon {
+        display: inline-block;
+        align-items: center;
+        width: 4rem;
+        font-size: 30px;
+        height: 65px;
+        line-height: 65px;
+        border-radius: 100%;
+        background: #fff;
+        text-align: center;
+        color: #f0151f;
+        font-weight: 600;
+    }
+
+    .box_icon .contact_details {
+        margin: 5px 0 0 20px;
+    }
+
+    .box_icon .contact_details h4 {
+        font-weight: 500;
+        font-size: 17px;
+        color: #fff;
+        margin: 0 0 5px;
+    }
+
+    .box_icon .contact_details p {
+        font-size: 15px;
+        color: #e1e0e0;
+    }
+
+
+    @media screen and (max-width: 750px) {
+        .contact_area {
+            padding: 50px 0px;
+        }
+
+        .contact_details_outer .contact_details_area {
+            padding: 25px;
+        }
+    }
+
+    @media screen and (max-width: 550px) {
+        .contact_area {
+            padding: 25px 0px;
+        }
+
+        .conatct_main_area {
+            margin: 10px;
+        }
+
+        .contact_details_outer .contact_details_area {
+            padding: 10px;
+        }
+    }
+}

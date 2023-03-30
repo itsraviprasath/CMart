@@ -1,0 +1,88 @@
+/* Banner Section  */
+
+.banner{
+    .carousel-1, .carousel-2, .carousel-3 {
+        width: 100%;
+        height: calc(100vh - 150px);
+        background-size: cover;
+    }
+    
+    .carousel-1 {
+        background-image: url(../../images/banner-img-1.jpg);
+    }
+    
+    .carousel-2 {
+        background-image: url(../../images/banner-img-2.jpg);
+    }
+    
+    .carousel-3 {
+        background-image: url(../../images/banner-img-3.jpg);
+    }
+    
+    .carousel-control-prev{
+        width: 50px;
+        height: 50px;
+        margin: auto;
+        background: #423b3b57;
+    }
+    
+    .carousel-control-next{
+        width: 50px;
+        height: 50px;
+        margin: auto;
+        background: #423b3b57;
+    }
+    
+    .carousel-indicators{
+        width: 0;
+        height: 0;
+    }
+    
+    h1 {
+        color: #fff;
+        margin-bottom: 15px;
+        font-size: 80px;
+        font-weight: 700;
+        letter-spacing: normal;
+        text-transform: uppercase;
+        font-family: 'Barlow Condensed', sans-serif;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        margin-top: 0;
+        padding-top: 150px;
+    }
+    
+    p {
+        color: #fff;
+        line-height: 1.6;
+        font-size: 19px;
+        font-weight: 400;
+        margin-bottom: 30px;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    }
+    
+    .btn {
+        background: #f0151f;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        border: 2px solid transparent;
+        display: inline-block;
+        padding: 14px 35px 14px;
+        position: relative;
+        z-index: 1;
+        transition: all .5s ease;
+        cursor: pointer;
+        letter-spacing: 1px;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        border-radius: 3px;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .btn:hover {
+        background: transparent;
+        color: #f0151f;
+        border: 2px solid #f0151f;
+    }
+}

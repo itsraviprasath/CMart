@@ -1,0 +1,50 @@
+/* Home Section Start */
+.home-page {
+  text-align: center;
+  .testimonial-section {
+    background-image: url(../../images/bg-img-1.jpg);
+  }
+
+  .agent-section {
+    background-color: #f9f9f8;
+  }
+
+  /* Click To Action */
+
+  .intro-section {
+    background: #f0151f;
+  }
+
+  .intro-section .intro-section-inner {
+    padding: 50px 0;
+  }
+
+  .intro-text {
+    font-size: 27px;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+    font-weight: 400;
+    display: inline;
+    padding-right: 450px;
+  }
+
+  .intro-section .btn {
+    color: #f0151f;
+    background: #fff;
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 14px 30px 12px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-family: "Raleway", sans-serif;
+    margin-right: 145px;
+  }
+  /* Home Section End */
+}

@@ -1,0 +1,31 @@
+/* Hero Section Start */
+.sub-banner {
+    background-image: url(../../images/img-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+
+    h1 {
+        margin: 0 0 5px;
+        font-weight: 700;
+        font-size: 30px;
+        text-transform: uppercase;
+        padding: 145px 0 3px;
+    }
+    
+    p {
+        font-size: 16px;
+        font-weight: 500;
+        margin: 0;
+    }
+    
+    span:hover {
+        color: #f0151f;
+    }
+}
+
+/* Hero Section End */

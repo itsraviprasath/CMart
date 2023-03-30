@@ -1,0 +1,279 @@
+.footer {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../images/footer_banner.jpg');
+    z-index: -3;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: #fff !important;
+
+    .footer-area {
+        color: #fff !important;
+        padding-top: 80px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #201297;
+        content: "";
+        z-index: -6;
+        opacity: 0.3;
+    }
+
+
+    .footer_area {
+        margin: 0rem 4rem;
+    }
+
+    .contact_info {
+        padding: 0 12px;
+    }
+
+    .usefull_links {
+        padding: 0 12px;
+    }
+
+    .recent_posts {
+        padding: 0 12px;
+    }
+
+    .subscription {
+        padding: 0 12px;
+    }
+
+    .contact_info_details {
+        margin-bottom: 60px;
+    }
+
+    .contact_info_details h4 {
+        font-size: 18px;
+        margin-bottom: 25px;
+        font-weight: 600;
+        color: #e4e3e3 !important;
+        text-transform: uppercase;
+    }
+
+    .contact_info_details ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .contact_info_details li {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        font-size: 15px;
+        font-weight: 400;
+        color: #fff !important;
+        position: relative;
+    }
+
+    .contact_info_details li p {
+        margin: 0;
+    }
+
+    .contact_info_details li span {
+        padding-right: 15px;
+    }
+
+
+
+    .social_list {
+        margin-top: 25px;
+    }
+
+    .social_list ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        color: #535353;
+    }
+
+    .social_list li {
+        display: inline-block;
+        font-size: 30px;
+    }
+
+
+
+
+    .footer_items {
+        margin-bottom: 60px;
+    }
+
+    .footer_items h4 {
+        font-size: 18px;
+        margin-bottom: 25px;
+        font-weight: 600;
+        color: #e4e3e3;
+        text-transform: uppercase;
+    }
+
+    .footer_items ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        color: #535353;
+    }
+
+    .footer_items li {
+        margin-bottom: 10px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+
+
+
+
+    .recent_posts {
+        margin-bottom: 60px;
+    }
+
+    .recent_post h4 {
+        font-size: 18px;
+        margin-bottom: 25px;
+        font-weight: 600;
+        color: #e4e3e3;
+        text-transform: uppercase;
+    }
+
+    .card_section {
+        display: flex;
+        align-items: center;
+    }
+
+    .card_section img {
+        margin-right: 10px;
+        display: block;
+        flex: 0 0 25%;
+        height: 100;
+    }
+
+    .card_section .recent_posts_text {
+        align-self: center !important;
+        display: block;
+    }
+
+    .card_section .recent_posts_text .listing_pricedate {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card_section .recent_posts_text .footer_date {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .calander_icon {
+        padding: 0px 3px;
+        font-size: 20px;
+    }
+
+    .card_section .recent_posts_text h5 {
+        margin-bottom: 7px;
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+
+
+
+
+    .subscribe {
+        margin-bottom: 60px;
+    }
+
+    .subscribe h4 {
+        font-size: 18px;
+        margin-bottom: 25px;
+        font-weight: 600;
+        color: #e4e3e3;
+        text-transform: uppercase;
+    }
+
+    .subscribe .subscribe_box p {
+        font-size: 15px;
+        color: #fff;
+    }
+
+    .conatct_form {
+        display: flex;
+        align-items: center;
+    }
+
+    .conatct_form .email_input {
+        width: 77%;
+        height: 50px;
+        padding: 10px 15px;
+        border-radius: 3px;
+        font-size: 15px;
+        outline: 0;
+        border: transparent;
+    }
+
+    .conatct_form .email_button {
+        border: none;
+        padding: 0 30px;
+        display: flex;
+        align-items: center;
+        height: 50px;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border-radius: 3px;
+        margin-left: 3%;
+        color: #fff;
+        background-color: #f0151f;
+    }
+
+    @media screen and (max-width: 1000px) {
+        height: 850px;
+        width: 100%;
+    }
+
+    @media screen and (max-width: 770px) {
+        height: 1400px;
+        width: 100%;
+    }
+
+
+    @media screen and (max-width: 600px) {
+        height: 1300px;
+        width: 100%;
+
+        .footer_area {
+            margin: 0;
+        }
+
+        .contact_info_details {
+            margin-bottom: 30px;
+        }
+
+        .social_list {
+            margin-top: 10px;
+        }
+
+        .footer_items {
+            margin-bottom: 30px;
+        }
+
+        .recent_posts {
+            margin-bottom: 30px;
+        }
+
+        .subscribe {
+            margin-bottom: 30px;
+        }
+
+    }
+
+}

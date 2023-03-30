@@ -1,0 +1,141 @@
+ul .nav {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 100px;
+  width: 100%;
+}
+
+.brand h1 {
+  display: flex;
+  align-items: center;
+  line-height: 100px;
+  font-weight: bold;
+  margin: 0rem 1rem;
+}
+
+img.logo_image {
+  margin: 0 auto;
+  width: 107.44px;
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  align-items: end;
+  display: inline-block;
+  line-height: 100px;
+  margin: 0rem 1rem;
+  color: #161616;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.links {
+  text-decoration: none;
+  color: #161616;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.nav_items:hover {
+  color: #f0151f !important;
+  border-bottom: solid 3px #f0151f;
+  cursor: pointer;
+}
+
+.icons {
+  color: #161616;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.call_us {
+  width: 250px;
+  padding: 0rem 2rem;
+  background-color: #f0151f;
+  display: flex;
+  align-items: center;
+}
+
+.callus_icon {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #0c47a9;
+}
+
+.call_details p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.call_icon {
+  padding: 0.6rem;
+  color: #fff;
+  font-size: 30px;
+  border: none;
+}
+
+.menu_option {
+  display: none;
+}
+
+.menu_trigger {
+  display: none;
+  float: right;
+  border-radius: 5px;
+  border: 1px solid #161616;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.18);
+  display: flex;
+  line-height: 100px;
+  color: #fff;
+  background-color: #f0151f;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+//menu active and inactive styles
+.nav-active {
+  color: #f0151f !important;
+  border-bottom: solid 3px #f0151f;
+}
+@media (max-width: 1200px) {
+  nav ul li {
+    margin: 0rem 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .menu_trigger {
+    margin-right: 15px;
+    display: flex;
+  }
+
+  .nav_items {
+    display: none;
+  }
+
+  .call_us {
+    display: none;
+  }
+
+  .menu_option {
+    display: block;
+    color: #161616;
+  }
+}

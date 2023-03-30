@@ -1,0 +1,44 @@
+/* Counters Section Start */
+.counters-section {
+    background: url(../../images/img-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+
+    .counters-coloumn {
+        margin: auto;
+        width: 82%;
+        padding-bottom: 100px;
+    }
+    
+    .count-box {
+        padding: 50px;
+    }
+    
+    .counter-icon {
+        font-size: 45px;
+        margin-top: 40px;
+    }
+    
+    .count-box h1 {
+        font-weight: 700;
+        color: #fff;
+        margin: 20px 0 15px;
+        font-size: 35px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .count-box h6 {
+        margin: 0;
+        font-size: 17px;
+        letter-spacing: 0.5px;
+        color: #fff;
+        font-weight: 500;
+    }
+}
+
+/* Counters Section End */
